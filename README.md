@@ -1,7 +1,14 @@
-# BAN 517 Inventory Agent Report Generator v1.1
+# BAN 517 Inventory Agent Report Generator v1.3
 
-Tests 1-4 use structured fields transcribed from the student's final classification output/table.
-Tests 5-9 capture final responses from the student's deployed Inventory Analytics Agent.
-The app generates one standardized PDF for Canvas submission.
+Part 1:
+- Test 1: A/B/C/D item counts and total Sales.
+- Test 2: Top 5 items by Sales for each of Classes A, B, C, and D.
+- Item 1170 classification check.
 
-Deploy `app.py` in Streamlit Community Cloud with `requirements.txt`.
+Part 2:
+- Student-authored inventory policy analysis.
+
+Part 3:
+- Final responses from the corrected Inventory Decision Agent for EOQ, Safety Stock/ROP, and Quantity Discount.
+
+Generates one standardized PDF for Canvas submission.
